@@ -6,235 +6,349 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-      @media screen and (max-width: 600px) {
+      /** media queries **/
+      @media only screen and (max-width: 600px) {
+        .header-section .column1 img {
+          width: 35% !important;
+        }
+        .header-section .column1 td {
+          text-align: center !important;
+        }
+        .header-section .column1 {
+          width: 100% !important;
+        }
+        .header-section .column2 {
+          width: 100% !important;
+        }
+        .header-section .column2 p {
+          text-align: center !important;
+          padding-top: 10px;
+        }
+        .header-section .column2 p br {
+          text-align: center !important;
+          display: none !important;
+        }
+        .header-section .column2 p .divider {
+          display: contents !important;
+        }
         .hero-section img {
-          max-width: 100%;
+          max-width: 100% !important;
+        }
+        .letter-section {
+          padding: 25px 30px !important;
+        }
+        .update-center-section {
+          padding: 25px 20px !important;
+        }
+        .update-center-section .container {
+          padding: 30px 40px !important;
+        }
+        .footer-section .logo {
+          width: 35% !important;
+        }
+        .footer-section .column {
+          width: 100% !important;
+          padding: 0 0 10px 0 !important;
+        }
+        .footer-section {
+          padding: 25px 30px 20px 30px !important;
+        }
+        .footer-section .unsubcribe-section p {
+          width: 100% !important;
         }
       }
     </style>
   </head>
-  <body style="padding:0; margin:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; background-color:#e8e8e8; font-family: 'Open Sans', sans-serif; font-size: 16px; color: #0b1f66;">
+  <body style="padding:0; margin:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; background-color:#ffffff; font-family: 'Open Sans', sans-serif; font-size: 16px; color: #0b1f66;">
     <!-- full email -->
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <!-- left cell -->
-        <td bgcolor="#ebebeb" style="font-size: 0px;">&zwnj;</td>
+        <td bgcolor="#ffffff" style="font-size: 0px;">&zwnj;</td>
 
         <!-- email content -->
         <td align="center" width="600" bgcolor="#ffffff">
 
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
-           <tbody>
-          <!-- start of email content -->
-             <tr>
-               <td>
-               <!-- start of header section -->
-                 <table class="header-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 15px 15px 15px 15px; background-color: #f5f7fa;">
-                   <tr>
-                     <td>
-                       <img src="img/Delta-Logo.png" alt="Delta logo" align="left" width="75%">
-                     </td>
-                     <td align="right" width="50%" style="text-align: right;">
-                       <p style="margin: 0; font-size: 14px;">
-                        <span style="text-decoration: underline;">#5554058000</span> <br> SkyMiles® Member <br> 7,093 Miles
-                       </p>
-                     </td>
-                   </tr>
-                 </table>
-                 <!-- end of header section -->
+            <!-- start of header section -->
+           <tr>
+             <td>
+               <table class="header-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 15px 15px 15px 15px; background-color: #f5f7fa;">
+                <tr>
+                  <td>
+                    <table class="column1" align="left" width="50%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td>
+                          <img src="https://i.postimg.cc/MZ7pgbZ1/Delta-Logo.png" alt="Delta logo" width="75%" style="padding-top: 10px;">
+                        </td>
+                      </tr>
+                    </table>
 
-                 <!-- start of hero img -->
-                 <table class="hero-section" width="100%" border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td>
-                      <img src="img/Hero-img.jpg" alt="Your update from Ed. Keep climbing together">
-                    </td>
-                  </tr>
-                 </table>
-                 <!-- end of hero img -->
+                    <table class="column2" align="left" width="50%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td style="text-align: right;">
+                          <p style="margin: 0; font-size: 14px;">
+                           <span style="text-decoration: underline;">#5554058000</span> <span class="divider" style="display: none;">|</span> <br> SkyMiles® Member <span class="divider" style="display: none;">|</span><br> 7,093 Miles
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+             </td>
+           </tr>
+           <!-- end of header section -->
 
-                 <!-- start of letter section -->
-                 <table class="letter-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 50px 25px 50px; line-height: 27px;">
-                   <tr>
-                     <td>
-                      <p>Dear Courtney,</p>
+           <!-- start of hero img section -->
+           <tr>
+             <td>
+              <table class="hero-section" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>
+                    <img src="https://i.postimg.cc/9M3cnzvx/Hero-img.jpg" alt="Your update from Ed. Keep climbing together">
+                  </td>
+                </tr>
+               </table>
+             </td>
+           </tr>
+           <!-- end of hero img section -->
 
-                      <p>
-                        I recently received an inspiring note from a medical professional who flew Delta to perform three lifesaving surgeries on 
-                        children. It was a reminder that travel continues to be essential for many who are on the front lines responding to this pandemic, 
-                        and why, if you must fly, our work to transport you safely is more important than ever.
-                      </p>
+           <!-- start of letter section -->
+           <tr>
+             <td>
+              <table class="letter-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 50px 25px 50px; line-height: 27px;">
+                <tr>
+                  <td>
+                   <p>Dear Courtney,</p>
 
-                      <p>
-                        For those of you who cannot travel right now, our mission is to serve you by helping with the crisis response. In addition to flying
-                        <a href="https://news.delta.com/supporting-front-lines-delta-expands-offer-free-medical-volunteer-travel-new-york?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_medicalvolunteers" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">medical volunteers</a> free of charge to some of the hardest-hit areas in the U.S., Delta has joined brands across the globe in partnering
-                        with health and community organizations. That includes our cargo division transporting critical supplies where they are most needed, like
-                        the <a href="https://www.wzzm13.com/article/news/health/coronavirus/delta-flight-carrying-500000-surgical-masks-arrives-at-ford-airport/69-77629db2-0898-42f2-bdbe-f89ba70667df?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_masks" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">500,000 surgical masks</a> delivered to Michigan last weekend for nurses and doctors on the front lines. With changes to onboard and Delta 
-                        Sky Club® offerings, we donated <a href="https://news.delta.com/delta-has-200000-pounds-food-we-cant-use-so-were-giving-it-people-need?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_food" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">200,000 pounds of food</a> to hospitals, food banks and other community groups, while <a href="https://news.delta.com/delta-flight-products-manufacture-personal-protective-equipment-help-healthcare-workers?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_faceshield" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">face shields</a> manufactured
-                        by Delta Flight Products are being used by hospital workers in New York and Atlanta.
-                      </p>
+                   <p>
+                     I recently received an inspiring note from a medical professional who flew Delta to perform three lifesaving surgeries on 
+                     children. It was a reminder that travel continues to be essential for many who are on the front lines responding to this pandemic, 
+                     and why, if you must fly, our work to transport you safely is more important than ever.
+                   </p>
 
-                      <p>
-                        Through it all, I am humbled by the ways you continue to heal our communities and embody the hope we need today. When you must travel:
-                      </p>
+                   <p>
+                     For those of you who cannot travel right now, our mission is to serve you by helping with the crisis response. In addition to flying
+                     <a href="https://news.delta.com/supporting-front-lines-delta-expands-offer-free-medical-volunteer-travel-new-york?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_medicalvolunteers" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">medical volunteers</a> free of charge to some of the hardest-hit areas in the U.S., Delta has joined brands across the globe in partnering
+                     with health and community organizations. That includes our cargo division transporting critical supplies where they are most needed, like
+                     the <a href="https://www.wzzm13.com/article/news/health/coronavirus/delta-flight-carrying-500000-surgical-masks-arrives-at-ford-airport/69-77629db2-0898-42f2-bdbe-f89ba70667df?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_masks" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">500,000 surgical masks</a> delivered to Michigan last weekend for nurses and doctors on the front lines. With changes to onboard and Delta 
+                     Sky Club® offerings, we donated <a href="https://news.delta.com/delta-has-200000-pounds-food-we-cant-use-so-were-giving-it-people-need?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_food" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">200,000 pounds of food</a> to hospitals, food banks and other community groups, while <a href="https://news.delta.com/delta-flight-products-manufacture-personal-protective-equipment-help-healthcare-workers?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_faceshield" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">face shields</a> manufactured
+                     by Delta Flight Products are being used by hospital workers in New York and Atlanta.
+                   </p>
 
-                      <ul>
-                        <li>
-                          <span style="font-weight: 700;">Your safety remains paramount.</span> Following the CDC’s recommendation, we’re providing face masks to employees,
-                          and I encourage you to bring a face mask for your own protection. And new initiatives will <a href="https://news.delta.com/delta-blocking-middle-seats-pausing-automatic-advance-upgrades-and-more-enable-social-distancing?utm_source=Delta+News+Hub+Updates&utm_campaign=aeca1c6bc5-EMAIL_CAMPAIGN_2020_04_08_02_07&utm_medium=email&utm_term=0_be3f884155-aeca1c6bc5-160410978?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_makingspace" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">make space for 
-                          safer travel</a> through June 30 by blocking middle seats, limiting the number of people on each flight, boarding 
-                          by rows from back to front, and pausing automatic advanced Medallion® Complimentary Upgrades to process them at the gate.
-                        </li>
+                   <p>
+                     Through it all, I am humbled by the ways you continue to heal our communities and embody the hope we need today. When you must travel:
+                   </p>
 
-                        <br>
+                   <ul>
+                     <li>
+                       <span style="font-weight: 700;">Your safety remains paramount.</span> Following the CDC’s recommendation, we’re providing face masks to employees,
+                       and I encourage you to bring a face mask for your own protection. And new initiatives will <a href="https://news.delta.com/delta-blocking-middle-seats-pausing-automatic-advance-upgrades-and-more-enable-social-distancing?utm_source=Delta+News+Hub+Updates&utm_campaign=aeca1c6bc5-EMAIL_CAMPAIGN_2020_04_08_02_07&utm_medium=email&utm_term=0_be3f884155-aeca1c6bc5-160410978?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_makingspace" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">make space for 
+                       safer travel</a> through June 30 by blocking middle seats, limiting the number of people on each flight, boarding 
+                       by rows from back to front, and pausing automatic advanced Medallion® Complimentary Upgrades to process them at the gate.
+                     </li>
 
-                        <li>
-                          <span style="font-weight: 700;">Flexibility is important in uncertain times.</span> Since the last update, change fee waivers have been extended to allow travel 
-                         <a href="https://www.delta.com/global/en/advisories/coronavirus-travel/overview?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_sept2020" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">through Sept. 30, 2022</a>, for customers who have upcoming travel booked as of today through Sept. 30, 2020, or have canceled 
-                          travel from flights in March through Sept. 30, 2020.
-                        </li>
-                      </ul>
+                     <br>
 
-                      <p>
-                        We remain committed to taking care of the Delta people who take care of you, and are thankful to members of Congress, 
-                        the President and the Administration for recognizing the importance of our people and industry via the CARES Act <a href="https://news.delta.com/ed-bastian-memo-protecting-our-future?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_payroll" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">payroll 
-                        protection</a>. This bipartisan support will help ensure that air travel plays a leading role in the recovery once the pandemic 
-                        is contained, and that our people will be positioned to serve you when you’re ready to resume flying.
-                      </p>
+                     <li>
+                       <span style="font-weight: 700;">Flexibility is important in uncertain times.</span> Since the last update, change fee waivers have been extended to allow travel 
+                      <a href="https://www.delta.com/global/en/advisories/coronavirus-travel/overview?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_sept2020" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">through Sept. 30, 2022</a>, for customers who have upcoming travel booked as of today through Sept. 30, 2020, or have canceled 
+                       travel from flights in March through Sept. 30, 2020.
+                     </li>
+                   </ul>
 
-                      <p>
-                        As everyone adapts to this new normal, many of you are posting on social media reminiscing about your favorite 
-                        destinations and where you hope to travel with us next. Thank you for those shared moments. We can’t wait for 
-                        the day when we’re taking you on your next adventure and appreciate your support.
-                      </p>
+                   <p>
+                     We remain committed to taking care of the Delta people who take care of you, and are thankful to members of Congress, 
+                     the President and the Administration for recognizing the importance of our people and industry via the CARES Act <a href="https://news.delta.com/ed-bastian-memo-protecting-our-future?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_payroll" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">payroll 
+                     protection</a>. This bipartisan support will help ensure that air travel plays a leading role in the recovery once the pandemic 
+                     is contained, and that our people will be positioned to serve you when you’re ready to resume flying.
+                   </p>
 
-                      <p>
-                        Sincerely,
-                      </p>
+                   <p>
+                     As everyone adapts to this new normal, many of you are posting on social media reminiscing about your favorite 
+                     destinations and where you hope to travel with us next. Thank you for those shared moments. We can’t wait for 
+                     the day when we’re taking you on your next adventure and appreciate your support.
+                   </p>
 
-                      <img src="img/signature.png" alt="Ed's signature" width="30%">
+                   <p>
+                     Sincerely,
+                   </p>
 
-                      <p style="font-weight: 700;">Ed Bastian<br> <span style="font-weight: 400; text-transform: uppercase;">ceo</span></p>
-                     </td>
-                   </tr>
-                 </table>
-                 <!-- end of letter section -->
+                   <img src="https://i.postimg.cc/QtpjGhDj/signature.png" alt="Ed's signature" width="30%">
 
-                 <!-- start of update center section -->
-                 <table class="update-center-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 30px 30px 30px; line-height: 27px;">
-                  <tr>
-                    <td style="border: 4px solid #0b1f66; padding: 30px 80px 30px 80px; text-align: center;">
-                      <h2 style="text-transform: capitalize; font-size: 20px; margin: 0; padding-bottom: 10px;">coronavirus update center:</h2>
-                      <a href="https://www.delta.com/us/en/coronavirus-update-center/overview?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_BTN" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">View the latest information and guidance ></a>
-                    </td>
-                  </tr>
-                 </table>
-                 <!-- end of update center -->
+                   <p style="font-weight: 700;">Ed Bastian<br> <span style="font-weight: 400; text-transform: uppercase;">ceo</span></p>
+                  </td>
+                </tr>
+              </table>
+             </td>
+           </tr>
+           <!-- end of letter section -->
 
-                 <!-- start of footer section-->
+           <!-- start of update center section -->
+           <tr>
+             <td>
+              <table class="update-center-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 30px 30px 30px; line-height: 27px;">
+                <tr>
+                  <td class="container" style="border: 4px solid #0b1f66; padding: 30px 80px 30px 80px; text-align: center;">
+                    <h2 style="text-transform: capitalize; font-size: 20px; margin: 0; padding-bottom: 10px;">coronavirus update center:</h2>
+                    <a href="https://www.delta.com/us/en/coronavirus-update-center/overview?mkcpgn=EM_MKTG_CPIN_CL_200414_AA900705_A01A_P0_BTN" target="_blank" style="font-weight: 700; color: #1155cc; text-decoration: none;">View the latest information and guidance ></a>
+                  </td>
+                </tr>
+               </table>
+             </td>
+           </tr>
+           <!-- end of update center -->
 
-                 <!-- start of logo img -->
-                 <table class="footer-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 50px 0px 50px; background-color: #f5f7fa;">
-                   <tr>
-                     <td align="center" style="padding: 20px 0 30px 0;">
-                      <img src="img/Delta-Logo2.png" alt="Delta logo" width="30%">
-                     </td>
-                   </tr>
-                 </table>
-                 <!-- end of logo img -->
+           <!-- start of footer section-->
+           <tr>
+             <td>
+               <table class="footer-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 50px 20px 50px; background-color: #f5f7fa;">
+                <!-- start of logo img -->
+                <tr>
+                  <td align="center" style="padding: 0 0 20px 0;">
+                   <img class="logo" src="https://i.postimg.cc/MZ7pgbZ1/Delta-Logo.png" alt="Delta logo" width="30%">
+                  </td>
+                </tr>
+                <!-- start of logo img -->
+                <tr>
+                  <td style="padding: 0 0 30px 0;">
+                    <!-- start of footer menu -->
+                    <!-- start of column 1 -->
+                    <table class="column" align="left" width="25%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f5f7fa; text-align: center;">
+                      <tr>
+                        <td>
+                          <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">need help?</a> 
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- end of column 1 -->
 
-                 <!-- start of footer menu -->
-                 <table class="footer-menu-section" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 50px 50px 50px; background-color: #f5f7fa;">
-                  <tr style="text-align: center;">
-                    <td style="width: 25%;">
-                     <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">need help?</a> 
-                    </td>
+                    <!-- start of column 2 -->
+                    <table class="column" align="left" width="25%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f5f7fa; text-align: center;">
+                      <tr>
+                        <td>
+                          <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">flight deals</a> 
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- end of column 2 -->
 
-                    <td style="width: 25%;">
-                      <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">flight deals</a> 
-                     </td>
+                    <!-- start of column 3 -->
+                    <table class="column" align="left" width="25%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f5f7fa; text-align: center;">
+                      <tr>
+                        <td>
+                          <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">earn miles</a> 
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- end of column 3 -->
 
-                     <td style="width: 25%;">
-                      <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">earn miles</a> 
-                     </td>
+                    <!-- start of column 4 -->
+                    <table class="column" align="left" width="25%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f5f7fa; text-align: center;">
+                      <tr>
+                        <td>
+                          <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">give back</a> 
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- end of column 4 -->
+                  </td>
+                </tr>
+                <!-- end of footer menu -->
 
-                     <td style="width: 25%;">
-                      <a href="" style="text-decoration: none; color: #4a4a4a; text-transform: capitalize; text-align: center;">give back</a> 
-                     </td>
-                  </tr>
-                 </table>
-                 <!-- end of footer menu -->
+                <!-- start of social icons section -->
+                <tr>
+                  <td>
+                    <table class="hr" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f5f7fa;">
+                      <tr>
+                        <td>
+                          <hr style="margin: 0; color: #7c828a; opacity: 20%;">
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
 
-                 <!-- start of social icons section -->
-                 <table class="social-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 50px 30px 50px; background-color: #f5f7fa;">
-                   <tr>
-                     <td>
-                      <hr style="margin: 0; color: #7c828a; opacity: 20%;">
-                     </td>
-                   </tr>
-                 </table>
-                 <!--- social icons -->
-                 <table class="social-icons-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f5f7fa; padding: 0 50px 20px 50px;">
-                  <tr align="center">
-                    <td class="icon" style="padding: 0; display: inline-block;">
-                     <a href="https://www.facebook.com/delta" target="_blank" style="text-decoration: none;">
-                       <img src="img/Facebook-Icon.png" alt="facebook.com icon" style="width: 40px; padding: 0 15px;">
-                     </a>
-                    </td>
-                    <td class="icon" style="padding:0; display: inline-block;">
-                     <a href="https://twitter.com/delta" target="_blank" style="text-decoration: none;">
-                      <img src="img/Twitter-Icon.png" alt="facebook.com icon" style="width: 40px;">
-                    </a>
-                   </td>
-                   <td class="icon" style="padding: 0; display: inline-block;">
-                     <a href="https://www.instagram.com/delta/" target="_blank" style="text-decoration: none;">
-                       <img src="img/Instagram-Icon.png" alt="facebook.com icon" style="width: 40px; padding: 0 15px;">
-                     </a>
-                   </td>
-                  </tr>
-                 </table>
+                <tr>
+                  <td>
+                    <!--- social icons -->
+                    <table class="social-icons" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 30px 0 20px 0;">
+                      <tr align="center">
+                        <td class="icon" style="padding: 0; display: inline-block;">
+                          <a href="https://www.facebook.com/delta" target="_blank" style="text-decoration: none;">
+                            <img src="https://i.postimg.cc/TYQY3dDw/Facebook-Icon.png" alt="facebook.com icon" style="width: 40px; padding: 0 15px;">
+                          </a>
+                        </td>
+                        <td class="icon" style="padding:0; display: inline-block;">
+                          <a href="https://twitter.com/delta" target="_blank" style="text-decoration: none;">
+                            <img src="https://i.postimg.cc/3w0K12b4/Twitter-Icon.png" alt="facebook.com icon" style="width: 40px;">
+                          </a>
+                        </td>
+                        <td class="icon" style="padding: 0; display: inline-block;">
+                          <a href="https://www.instagram.com/delta/" target="_blank" style="text-decoration: none;">
+                            <img src="https://i.postimg.cc/7YqZ4Gbd/Instagram-Icon.png" alt="facebook.com icon" style="width: 40px; padding: 0 15px;">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
 
-                 <table class="social-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f5f7fa; padding: 0 50px 50px 50px; font-size: 13px; text-transform: capitalize;">
-                  <tr>
-                    <td align="center">
-                      <a href="" target="_blank" style="text-decoration: none; color: #7c828a;">email preferences</a> 
-                      <span style="color: #7c828a;">|</span>
-                      <a href="" target="_blank" style="text-decoration: none; color: #7c828a;">privacy policy</a>
-                    </td>
-                  </tr>
-                 </table>
-                 <!-- end of social icons section -->
+                <tr>
+                  <td>
+                    <table class="social-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 0 50px 0; font-size: 13px; text-transform: capitalize;">
+                      <tr>
+                        <td align="center">
+                          <a href="" target="_blank" style="text-decoration: none; color: #7c828a;">email preferences</a> 
+                          <span style="color: #7c828a;">|</span>
+                          <a href="" target="_blank" style="text-decoration: none; color: #7c828a;">privacy policy</a>
+                        </td>
+                      </tr>
+                     </table>
+                  </td>
+                </tr>
+                <!-- end of social icons section -->
 
-                 <table class="social-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 50px 30px 50px; background-color: #f5f7fa;">
-                  <tr>
-                    <td>
-                     <hr style="margin: 0; color: #7c828a; opacity: 20%;">
-                    </td>
-                  </tr>
-                </table>
+                <tr>
+                  <td>
+                    <table class="hr" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 0 30px 0;">
+                      <tr>
+                        <td>
+                          <hr style="margin: 0; color: #7c828a; opacity: 20%;">
+                        </td>
+                      </tr>
+                   </table>
+                  </td>
+                </tr>
 
-                <table class="unsubcribe-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 50px 15px 50px; background-color: #f5f7fa; color: #7c828a; font-size: 10px;">
-                  <tr>
-                    <td>
-                     <p>
-                      This email was sent to: <a href="#" target="_blank">Courtneyc148@gmail.com</a>
-                     </p>
-                     <p style="width: 50%;">
-                      © 2020 Delta Air Lines, Inc. All rights reserved. <br>
-                      Delta Blvd. P.O. Box 20706 • Atlanta, GA 30320-6001
-                     </p>
-                    </td>
-                  </tr>
-                </table>
-                 <!-- end of footer section-->
-               </td>
-             </tr>
-             <!-- end of email content -->
-           </tbody>
+                <tr>
+                  <td>
+                    <table class="unsubcribe-section" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="color: #7c828a; font-size: 10px;">
+                      <tr>
+                        <td>
+                         <p>
+                          This email was sent to: <a href="#" target="_blank">Courtneyc148@gmail.com</a>
+                         </p>
+                         <p style="width: 50%;">
+                          © 2020 Delta Air Lines, Inc. All rights reserved. <br>
+                          Delta Blvd. P.O. Box 20706 • Atlanta, GA 30320-6001
+                         </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+               </table>
+             </td>
+           </tr>
+           <!-- end of footer section-->
+
+           <!-- end of email content -->
           </table>
         </td>
         <!-- right cell -->
-        <td bgcolor="#ebebeb" style="font-size: 0px;">&zwnj;</td>
+        <td bgcolor="#ffffff" style="font-size: 0px;">&zwnj;</td>
       </tr>
     </table>
   </body>
